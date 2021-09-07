@@ -1,0 +1,88 @@
+body{
+    margin: 0%;
+    background-color: rgba(192, 219, 226, 0.199);  
+    font-family: 'PT Sans', sans-serif;
+    
+}
+header
+{
+    padding: 10px;
+    background-color: rgb(#F3F3F3);  
+    word-spacing: 1px;
+}
+h1
+{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(141, 129, 106);
+    text-transform: uppercase;
+    
+    
+}
+li{
+    list-style: none;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    /* transition:all 1s; */
+    padding: 15px;
+       /* word-spacing: px; */
+    /* font-style: oblique; */
+    /* border: solid 5px black; */
+    
+}
+
+
+nav{
+    word-spacing: 1px;
+    text-align: right;
+    border-top: solid 5px rgb(146, 140, 140);
+    border-bottom: solid 5px rgb(146, 140, 140);
+    background-color: rgb(255, 255, 255);
+    border-width: 10%;
+    transition: all;
+
+}
+nav :hover{
+    color: #a58f65;
+    cursor: pointer;
+}
+#Top-Section {
+    text-align: center;
+}
+.sub-head{
+    text-transform: uppercase;
+    box-shadow: 1px 1px 10px rgb(78, 74, 74);
+}
+img{
+    width: 300px;
+    padding: 10px;
+    box-shadow: 1px 1px 5px rgb(12, 12, 12);
+    border-radius: 10px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+}
+.img{
+
+    transition: all 1s;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.img :hover
+{
+    transform: scale(1.1);
+}
+footer{
+    text-align: center;
+    font-size: 1em;
+    text-transform: uppercase;
+    color: cadetblue;
+    
+}
+h3{
+    border: solid 3px rgb(0, 0, 0);
+    width: 200px;
+    display: inline-block;
+    border-radius: 20%;
+}
